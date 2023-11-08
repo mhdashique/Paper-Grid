@@ -1,0 +1,203 @@
+body{
+    height: 2310px;
+    margin: 0px;
+    
+}
+.navbar{
+    background-color: black;
+}
+.nav-first{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px;
+    border-color:rgb(51, 50, 50) ;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    cursor: pointer;
+    font-family:'roboto mono';
+    font-size: small;
+    letter-spacing: 1px;
+    
+    height: 40px;
+}
+.nav-second{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-home {
+    text-decoration: underline;
+    color: aliceblue;
+}
+.papergrid-main{
+    display: flex;
+    align-items: center;
+}
+
+.papergrid{
+    width: 120px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.nav-menu{
+    display: flex;
+    margin-left: 20px;
+    width: 520px;
+}
+.nav-elements{
+    color:rgb(190, 188, 188);
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.nav-elements:hover{
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: underline;
+}  
+.icon{
+    color: aliceblue;
+    display: flex;
+    width: 50px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 1.5rem;
+    font-size: 1.5vw;
+    margin-right: 4rem;
+    color: #a6a3a3;
+
+}
+.icon i:hover{
+    scale: 1.2;
+}
+
+
+.grid{
+   
+    padding-top: 25px;
+}
+    
+.grid1{
+   
+    display: flex;
+    
+    margin-top: 1%;
+    gap: 4%;
+    justify-content: center;
+}
+.sqaure-images{
+    width: 330px;
+    height:330px ;
+    display: flex;
+    cursor: pointer;
+}
+
+.ceo{
+    display: flex;
+    padding-bottom: 30px;
+    margin-top: 70px;
+}
+.ceo2{
+    margin-top: 20px;
+}
+
+.ceo3{
+    width: 460px;
+    height: 30px;
+    margin-left: 70px ;
+
+}
+.ceo-image{
+    width: 350px;
+    margin-left: 50px;
+}
+
+#ceo-header{
+    font-family: 'roboto mono';
+    font-size: x-large;
+}
+
+#ceo-para{
+    font-family: 'roboto mono';
+    font-size: larger;
+    color: rgb(101, 101, 101);
+    
+}
+
+#ceo-button{
+    width: 140px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    font-family: 'roboto mono';
+    font-size: medium;
+    cursor: pointer;
+    
+
+}
+#ceo-button:hover{
+     
+    scale: 1.01;
+}
+.footer-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: black;
+    border-bottom: 1px;
+    border-color:rgb(51, 50, 50) ;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+.footer1,.footer-links{
+    margin: 20px;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.footer-links{
+    color: rgb(157, 157, 157);
+    text-decoration: underline;
+
+}
+.footer-links:hover{
+    color: azure;
+}
+.footer2:hover{
+    color: white;
+}
+
+.footer-second{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    height: 140px;
+    align-items:center;
+    justify-content: center;
+    font-size: smaller;
+    font-family:  'Arial bold', Arial, sans-serif;
+    
+}
+.lastline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.footer-second{
+    color: rgb(149, 147, 147);
+}
